@@ -1,0 +1,33 @@
+# Entorno virtual
+env/
+venv/
+ENV/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Archivos de configuración
+*.env
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de migración (opcionales)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Archivos de compilación
+*.pyc
+
+# Archivos de desarrollo de VSCode o JetBrains
+.vscode/
+.idea/
+
+# Archivos de node/npm si usas front-end
+node_modules/
